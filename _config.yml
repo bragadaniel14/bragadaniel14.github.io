@@ -1,0 +1,21 @@
+title: Daniel Lima Braga
+email: dbraga@princeton.edu
+description: >-
+  Portfolio and notes from a Princeton M.S.E. Computer Science student working on
+  machine learning and computational cognitive science.
+baseurl: ""
+url: "https://bragadaniel14.github.io"
+markdown: kramdown
+permalink: /blog/:title/
+analytics_plausible_domain: ""
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Daniel Lima Braga"
+
+plugins:
+  - jekyll-feed

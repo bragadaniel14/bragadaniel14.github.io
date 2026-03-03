@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap" rel="stylesheet">
+    {% if site.analytics_plausible_domain and site.analytics_plausible_domain != "" %}
+    <script defer data-domain="{{ site.analytics_plausible_domain }}" src="https://plausible.io/js/script.js"></script>
+    {% endif %}
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="{{ '/' | relative_url }}">DLB</a>
+        <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+        <nav class="site-nav" data-open="false">
+          <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a>
+          <a href="{{ '/mini-blog/' | relative_url }}" {% if page.url == '/mini-blog/' %}aria-current="page"{% endif %}>Mini-Blog</a>
+          <a href="{{ '/ml-materials/' | relative_url }}" {% if page.url == '/ml-materials/' %}aria-current="page"{% endif %}>ML Materials</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container page-enter">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© {{ "now" | date: "%Y" }} Daniel Lima Braga</p>
+        <p><a href="mailto:dbraga@princeton.edu">dbraga@princeton.edu</a></p>
+      </div>
+    </footer>
+
+    <script>
+      const btn = document.querySelector('.menu-toggle');
+      const nav = document.querySelector('.site-nav');
+      if (btn && nav) {
+        btn.addEventListener('click', () => {
+          const open = nav.dataset.open === 'true';
+          nav.dataset.open = open ? 'false' : 'true';
+          btn.setAttribute('aria-expanded', open ? 'false' : 'true');
+        });
+      }
+    </script>
+  </body>
+</html>
