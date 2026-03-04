@@ -17,14 +17,8 @@ permalink: /ml-materials/
       <ul class="resource-list">
         <li>
           <details class="resource-item">
-            <summary><a href="https://www.3blue1brown.com/topics/neural-networks" target="_blank" rel="noopener">3Blue1Brown: Neural Networks</a></summary>
-            <p>Visual intuition first.</p>
-          </details>
-        </li>
-        <li>
-          <details class="resource-item">
             <summary><a href="https://www.3blue1brown.com/topics/differential-equations" target="_blank" rel="noopener">3Blue1Brown: Differential Equations</a></summary>
-            <p>Visual intuition first.</p>
+            <p>A lot of interesting and theoretically grounded work in ML that goes through dynamical systems, diffusions, state space models, and beyond rely on some amount of diff eq. 3B1B is pretty good at providing visual intuitions for Fourier series, Laplace transforms, and heat equations.</p>
           </details>
         </li>
         <li>
@@ -55,12 +49,6 @@ permalink: /ml-materials/
         </li>
         <li>
           <details class="resource-item">
-            <summary><a href="https://cs229.stanford.edu/materials.html" target="_blank" rel="noopener">Stanford CS229 Materials</a></summary>
-            <p>Classic notes for fundamentals.</p>
-          </details>
-        </li>
-        <li>
-          <details class="resource-item">
             <summary><a href="https://www.deeplearning.ai/courses/deep-learning-specialization/" target="_blank" rel="noopener">deeplearning.ai Deep Learning Specialization</a></summary>
             <p>
               If you enjoy theory-heavy classes, this is a good complement because it focuses on turning ideas into working code while still explaining important architectural details.
@@ -71,30 +59,6 @@ permalink: /ml-materials/
           <details class="resource-item">
             <summary><a href="https://uvadlc-notebooks.readthedocs.io/" target="_blank" rel="noopener">UVA Deep Learning Course Notebooks</a></summary>
             <p>I used this to understand JAX better. It is well written, mostly self-contained, and has clear PyTorch equivalents.</p>
-          </details>
-        </li>
-      </ul>
-    </article>
-
-    <article class="card">
-      <h2>Hands-On Tutorials</h2>
-      <ul class="resource-list">
-        <li>
-          <details class="resource-item">
-            <summary><a href="https://course.fast.ai/" target="_blank" rel="noopener">Practical Deep Learning for Coders</a></summary>
-            <p>A coding-first deep learning course.</p>
-          </details>
-        </li>
-        <li>
-          <details class="resource-item">
-            <summary><a href="https://d2l.ai/" target="_blank" rel="noopener">Dive into Deep Learning</a></summary>
-            <p>A textbook with runnable notebooks.</p>
-          </details>
-        </li>
-        <li>
-          <details class="resource-item">
-            <summary><a href="https://uvadlc-notebooks.readthedocs.io/" target="_blank" rel="noopener">UVA Deep Learning Course Notebooks</a></summary>
-            <p>Clear PyTorch examples.</p>
           </details>
         </li>
       </ul>

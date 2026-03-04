@@ -20,8 +20,8 @@
         <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
         <nav class="site-nav" data-open="false">
           <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a>
-          <a href="{{ '/mini-blog/' | relative_url }}" {% if page.url == '/mini-blog/' %}aria-current="page"{% endif %}>Mini-Blog</a>
           <a href="{{ '/ml-materials/' | relative_url }}" {% if page.url == '/ml-materials/' %}aria-current="page"{% endif %}>ML Materials</a>
+          <a href="{{ '/mini-blog/' | relative_url }}" {% if page.url == '/mini-blog/' %}aria-current="page"{% endif %}>Mini-Blog</a>
         </nav>
       </div>
     </header>
