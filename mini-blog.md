@@ -6,7 +6,7 @@ permalink: /mini-blog/
 <section class="section-block">
   <h1>Mini-Blog</h1>
   <p>
-    Short notes on things I learn in technology and in Christian life. This is read-only for now.
+    Short notes on things I learn in technology and in Christian life.
   </p>
 </section>
 

@@ -4,12 +4,12 @@ title: Home
 permalink: /
 ---
 <section class="hero stagger">
-  <img class="avatar" src="{{ '/assets/profile-placeholder.svg' | relative_url }}" alt="Profile placeholder image">
+  <img class="avatar" src="{{ '/assets/profile-placeholder.jpg' | relative_url }}" alt="Profile placeholder image">
   <div>
     <p class="eyebrow">Princeton University · M.S.E. Computer Science (2025-2027)</p>
     <h1>Daniel Lima Braga</h1>
     <p>
-      I am a master's student at Princeton focused on machine learning, scientific discovery, and computational cognitive science.
+      I am a master's student at Princeton focused on AI and computational cognitive science. I am generally interested in modeling AI pipelines and models with theoretical and physical constraints to advance scientific discovery.
       I currently do research in the
       <a href="https://cocosci.princeton.edu/" target="_blank" rel="noopener">Computational Cognitive Science Lab</a>
       advised by Prof. Tom Griffiths.
@@ -31,11 +31,11 @@ permalink: /
     </article>
     <article class="card">
       <h3>Industry Background</h3>
-      <p>Senior Software Engineer at Bloomberg (2016-2025), with leadership and large-scale data infrastructure experience.</p>
+      <p>Software Engineer at Bloomberg (2020-2025), with leadership and large-scale data infrastructure experience.</p>
     </article>
     <article class="card">
       <h3>Core Stack</h3>
-      <p>Python, Java, JavaScript, PyTorch, JAX, Spark, AWS S3, PostgreSQL, Docker, Git.</p>
+      <p>Python, Java, JavaScript, AWS S3, Docker, Git, PostgreSQL, Pytorch.</p>
     </article>
   </div>
 </section>
@@ -49,7 +49,7 @@ permalink: /
       <p>Computational Cognitive Science Lab. Building evaluation frameworks for LLM-based representation discovery.</p>
     </article>
     <article class="timeline-item">
-      <p class="meta">September 2016 - July 2025</p>
+      <p class="meta">July 2020 - July 2025</p>
       <h3>Senior Software Engineer · Bloomberg L.P.</h3>
       <p>Built distributed financial-document data pipelines (Kafka, Spark, AWS), led security remediation, and mentored engineers.</p>
     </article>
@@ -68,7 +68,7 @@ permalink: /
       <h3>Teaching / Mentoring</h3>
       <ul>
         <li>Princeton University Recruiting Captain at Bloomberg (workshops and interviews).</li>
-        <li>TA courses at Princeton: details coming soon.</li>
+        <li>TA courses at Princeton: COS 330 - Great Ideas in Theoretical Computer Science (Fall 25), COS 486 - Introduction to Brain Emulation (Spring 26).</li>
       </ul>
     </article>
     <article class="card">
